@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "collapseid": "collapse1",
+    "image": "Bryan/BryanThumbnail.jpg",
+    "name": "BRYAN",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Bryan is known for creating natural-looking, long-lasting color; seamless long layer cuts, razor cuts, and beautiful finishing techniques."
+  },
+  {
+    "id": "2",
+    "collapseid": "collapse2",
+    "image": "Carrie/CarrieThumbnail.jpg",
+    "name": "CARRIE",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Carrie loves doing classic shapes that last, men’s cuts from classic to crazy, and razor cuts."
+  },
+  {
+    "id": "3",
+    "collapseid": "collapse3",
+    "image": "David/DavidThumbnail.jpg",
+    "name": "DAVID",
+    "level": "MASTER STYLIST - LEVEL 4",
+    "desc": "David loves to cut & style long, curly and wavy textures as well as natural ombre highlights."
+  },
+  {
+    "id": "4",
+    "collapseid": "collapse4",
+    "image": "Glenn/GlennThumbnail.jpg",
+    "name": "GLEEN",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Glenn loves to do short womens cuts, men's barbering, long layers, and lived in, natural hilites."
+  },
+  {
+    "id": "5",
+    "collapseid": "collapse5",
+    "image": "Hylee/HyleeThumbnail.jpg",
+    "name": "HYLEE",
+    "level": "STYLIST",
+    "desc": "Haylee loves solving all her clients' hair challenges! She enjoys doing mens and women's cuts on all lengths and textures and loves adding dimension and style to every guest's hair. She also loves hair painting and blonding."
+  },
+  {
+    "id": "6",
+    "collapseid": "collapse6",
+    "image": "Heather/HeatherThumbnail.jpg",
+    "name": "HEATHER",
+    "level": "STYLIST",
+    "desc": "Heather loves working with all hair lengths and specializes in accentuating her clients natural textures to create easy wash and go styles. *Heathers color services are booked by consultation only."
+  },
+  {
+    "id": "7",
+    "collapseid": "collapse7",
+    "image": "Holly/HollyThumbnail.jpg",
+    "name": "HOLLY",
+    "level": "MASTER STYLIST - LEVEL 4",
+    "desc": "Holly loves doing sun-kissed blondes, dimensional brunettes, and radiant redheads."
+  },
+  {
+    "id": "8",
+    "collapseid": "collapse8",
+    "image": "Jenna/JennaThumbnail.jpg",
+    "name": "JENNA",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Jenna specializes in blondes of all tones like natural blended highlights, beachy lived-in color, baby lights, and sun-kissed brunettes. She loves color corrections and color matching for natural grey coverage and blending. She creates haircuts that are low maintenance and low fuss and compliments the individual, especially medium/short hair style pixies, men's cuts, bobs, layered shags, soft blended long layers, bold bangs, and razor cutting of all lengths."
+  },
+  {
+    "id": "9",
+    "collapseid": "collapse9",
+    "image": "Jennifer/JenniferThumbnail.jpg",
+    "name": "Jennifer",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Jennifer loves to do highlights & corrective color, long layers, and fine hair. Please book in advance for appointments with Jennifer."
+  },
+  {
+    "id": "10",
+    "collapseid": "collapse10",
+    "image": "Jessi/JessiThumbnail.jpg",
+    "name": "JESSI",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Jessi likes doing eye-catching color, fun & flirty cuts, and special occasion styles of all kinds. Jessi is also a braiding wizard."
+  },
+  {
+    "id": "11",
+    "collapseid": "collapse11",
+    "image": "Joseph/JosephThumbnail.jpg",
+    "name": "JOSEPH",
+    "level": "MASTER STYLIST - LEVEL 1",
+    "desc": "Joseph loves clipper fades & classic men’s cuts, blended natural highlights, and cutting all hair - classic, funky and modern."
+  },
+  {
+    "id": "12",
+    "collapseid": "collapse12",
+    "image": "Josie/JosieThumbnail.jpg",
+    "name": "JOSIE",
+    "level": "MASTER STYLIST - LEVEL 1",
+    "desc": "Josie loves all things hair! She is great with all textures and lengths including men's barbering. She loves doing natural to dramatic color, helping you to look & feel your best!"
+  },
+  {
+    "id": "13",
+    "collapseid": "collapse13",
+    "image": "Laura/LauraThumbnail.jpg",
+    "name": "LAURA",
+    "level": "OWNER / MASTER STYLIST - LEVEL 4",
+    "desc": "Laura loves to shape long hair, loves doing any razor cut she can, and is an expert at curls curls curls. *Laura works every other Tuesday in Lakeview"
+  },
+  {
+    "id": "14",
+    "collapseid": "collapse14",
+    "image": "Lauren/LaurenThumbnail.jpg",
+    "name": "LAUREN",
+    "level": "LEAD STYLIST",
+    "desc": "Laura loves to shape long hair, loves doing any razor cut she can, and is an expert at curls curls curls. *Laura works every other Tuesday in Lakeview"
+  },
+  {
+    "id": "15",
+    "collapseid": "collapse15",
+    "image": "Libby/LibbyThumbnail.jpg",
+    "name": "LIBBY",
+    "level": "MASTER STYLIST - LEVEL 1",
+    "desc": "Libby excels at short and/or creative haircuts. She loves to do bobs and is enjoys to work with all hair textures."
+  },
+  {
+    "id": "16",
+    "collapseid": "collapse16",
+    "image": "Lisa/LisaThumbnail.jpg",
+    "name": "LISA",
+    "level": "STYLIST",
+    "desc": "Lisa loves to help clients feel confident and beautiful! She enjoys cutting long layers with movement, bobs with texture and short styles."
+  },
+  {
+    "id": "17",
+    "collapseid": "collapse17",
+    "image": "Lo/LoThumbnail.jpg",
+    "name": "LO",
+    "level": "STYLIST",
+    "desc": "No two clients are alike and Lo feels the same should be true about their haircuts. From soft, diffused long layers, to perfectly shaped curls - she will find the best fit style for you! She specializes in wavy to curly textures."
+  },
+  {
+    "id": "18",
+    "collapseid": "collapse18",
+    "image": "Owen/OwenThumbnail.jpg",
+    "name": "OWEN",
+    "level": "NEW TALENT STYLIST",
+    "desc": "Owen views hair as an artistic media outlet and ensures that every finished look is a masterpiece. Owen excels at creating short haircuts, crafting beachy blow dries, and enhancing hair’s natural texture."
+  },
+  {
+    "id": "19",
+    "collapseid": "collapse19",
+    "image": "Paige/PaigeThumbnail.jpg",
+    "name": "PAIGE",
+    "level": "LEAD STYLIST",
+    "desc": "Paige loves doing all women's haircuts! From long to short, straight to curly - she's a master! She especially loves grey blending, wavy hair, crops, pixies & barbering."
+  },
+  {
+    "id": "20",
+    "collapseid": "collapse20",
+    "image": "Rebecca/RebeccaThumbnail.jpg",
+    "name": "REBECCA",
+    "level": "ESTHETICIAN",
+    "desc": "Rebecca loves to do beautiful, full arches, bridal & special event makeup, and to help her clients achieve the best results in skin care possible."
+  },
+  {
+    "id": "21",
+    "collapseid": "collapse21",
+    "image": "Sarah/SarahThumbnail.jpg",
+    "name": "SARAH",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Sarah creates beautiful, effortless haircuts for all textures and specializes in waves and curls. She loves shorter women's cuts, men's cuts, and natural looking highlights/color."
+  },
+  {
+    "id": "22",
+    "collapseid": "collapse22",
+    "image": "Sonia/SoniaThumbnail.jpg",
+    "name": "SONIA",
+    "level": "MASTER STYLIST - LEVEL 3",
+    "desc": "Sonia loves to do soft, long layers, sun-kissed highlights, and classic haircuts with a modern twist."
+  },
+  {
+    "id": "23",
+    "collapseid": "collapse23",
+    "image": "Stacia/StaciaThumbnail.jpg",
+    "name": "STACIA",
+    "level": "MASTER STYLIST - LEVEL 2",
+    "desc": "Stacia loves long layers, adorable bobs, natural-looking highlights, and easy breezy hair"
+  },
+  {
+    "id": "24",
+    "collapseid": "collapse24",
+    "image": "Valerie/ValerieThumbnail.jpg",
+    "name": "VALERIE",
+    "level": "MASTER STYLIST - LEVEL 1",
+    "desc": "Valerie (formerly Ava) loves to cut long layers & textured bobs, and styling voluminous blowouts."
+  }
+]

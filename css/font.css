@@ -1,0 +1,53 @@
+/* Body Font */
+@font-face {
+  src: url("../fonts/FiraSansExtraCondensed-Regular.ttf");
+  font-family: "FiraSansExtraCondensed-Regular";
+}
+/* Navbar Font */
+@font-face {
+  src: url("../fonts/Billabong.woff");
+  font-family: "Billabong";
+}
+/* Carousel Font */
+@font-face {
+  src: url("../fonts/Exo2-Regular.ttf");
+  font-family: "Exo2-Regular";
+}
+/* Heading Font */
+@font-face {
+  src: url("../fonts/KoHo-Regular.ttf");
+  font-family: "KoHo-Regular";
+}
+/* Heading 2 Font */
+@font-face {
+  src: url("../fonts/Kanit-Regular.ttf");
+  font-family: "Kanit-Regular";
+}
+/* Paragraph Font */
+@font-face {
+  src: url("../fonts/Mali-Light.ttf");
+  font-family: "Mali-Light";
+}
+/* Small Heading */
+@font-face {
+  src: url("../fonts/Fahkwang-Regular.ttf");
+  font-family: "Fahkwang-Regular";
+}
+/* Bold */
+@font-face {
+  src: url("../fonts/Mali-Bold.ttf");
+  font-family: "Mali-Bold";
+}
+/* Italic */
+@font-face {
+  src: url("../fonts/Mali-LightItalic.ttf");
+  font-family: "Mali-LightItalic";
+}
+@font-face {
+  src: url("../fonts/KoHo-Bold.ttf");
+  font-family: "KoHo-Bold";
+}
+@font-face {
+  src: url("../fonts/FiraSansExtraCondensed-SemiBold.ttf");
+  font-family: "FiraSansExtraCondensed-SemiBold";
+}

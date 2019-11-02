@@ -1,0 +1,66 @@
+[
+  {
+    "id": "haircuts",
+    "collapseid": "collapse-collapsed1",
+    "name": "Haircuts",
+    "desc": "A haircut is a result of technique and vision. Every haircut will begin with a complete consultation for a personalized cut to work with your hair texture, facial structure and styling needs; followed by a luxurious shampoo & relaxing scalp massage with light conditioning treatment along with a complimentary Aveda ritual.",
+    "table": "<table id='haircut-table'><tr><td>Ladies’ Haircut</td><td>$55+</td></tr><tr><td>Children’s Haircut (12 & under)</td><td>$35+</td></tr><tr><td>Gentlemen’s Haircut</td><td>$35+</td></tr><tr><td>Neck/Bang Trim</td><td>$10+</td></tr></table>",
+    "note": "*Complimentary neck and bang trim between haircut appointments."
+  },
+  {
+    "id": "colors",
+    "collapseid": "collapse-collapsed2",
+    "name": "Colors",
+    "desc": "Nothing can lift your looks and spirits like a new hair color! A sassy new hair color lets you look at yourself in a whole new way. Our mission and passion is to create a tone or shade that suits not just your hair, but also your skin tone, face shape, and lifestyle.",
+    "table": "<table id='color-table'><tr><td>All Over Color</td><td>$75+</td></tr><tr><td>Partial Highlights</td><td>$95+</td></tr><tr><td>Full Highlight</td><td>$115+</td></tr><tr><td>Express Highlight</td><td>$55+</td></tr><tr><td>Partial Highlight w/Color</td><td>$125+</td></tr><tr><td>Full Highlight w/Color</td><td>$145+</td></tr><tr><td>Ombre’</td><td>$135+</td></tr><tr><td>Balayage</td><td>$155+</td></tr><tr><td>Color Gloss/Toner</td><td>$35*</td></tr><tr><td>Corrective Color</td><td>consultation required**</td></tr><tr><td>Color Cleanse</td><td>consultation required**</td></tr></table>",
+    "note": "*Color Gloss/Toner service is not accompanied with a blowout finish.<br><br>**A complimentary consultation is a must prior to this service. This procedure is done to remove or change unwanted brassiness, chemical damage or home hair color that has gone wrong. This service may require extra time and/or additional appointments to achieve the final result."
+  },
+  {
+    "id": "styling",
+    "collapseid": "collapse-collapsed3",
+    "name": "Styling",
+    "desc": "Next time you are preparing for a night on the town, a holiday party, or any special occasion, consider Versa Salon Spa for your styling needs. An invigorating shampoo and conditioning treatment with a stress-relieving hot towel treatment and completed with the style of your choice.",
+    "table": "<table id='styling-table'><tr><td>Shampoo Style</td><td>$55+</td></tr><tr><td>Express Blowout</td><td>$35+</td></tr><tr><td>Dry Express Style</td><td>$35+</td></tr><tr><td>Natural Blowout</td><td>$65+</td></tr><tr><td>Natural Blowout Cut</td><td>$85+</td></tr><tr><td>Style Set</td><td>$65+</td></tr><tr><td>Up-do Style</td><td>$75+</td></tr></table>",
+    "note": ""
+  },
+  {
+    "id": "keratin",
+    "collapseid": "collapse-collapsed4",
+    "name": "Hair Smoothing Treatments",
+    "desc": "Sleek, straight, smooth hair is always in. From highly textured, unruly hair to frizzy, slightly textured hair, unlock resistant curls and smooth away frizz with one of our smoothing treatments.<br>Our Keratin Treatments are a revolutionary hair smoothing system that lasts up to 6 months; this improves the softness and reduces friction, enabling hair to better withstand heat, helps make hair less prone to breakage and improved the lubricity of hair, giving hair overall better manageability. And best of all, it’s formaldehyde-free!",
+    "table": "<table id='keratin-table'><tr><td>Relaxer</td><td>$75+</td></tr><tr><td>Up to shoulder-length hair</td><td>$200+</td></tr><tr><td>Longer than shoulder-length hair</td><td>$300+</td></tr><tr><td>Retouch Application</td><td>$150+</td></tr><tr><td>Keratin Express Blowout</td><td>$150+</td></tr></table>",
+    "note": "*A consultation is required in order to recommend the best treatment for your needs and lifestyle."
+  },
+  {
+    "id": "hairspa",
+    "collapseid": "collapse-collapsed5",
+    "name": "Hair Spa Treatments",
+    "desc": "Add a conditioning treatment to your service and enjoy a relaxing scalp massage as we replenish the moisture, protein, and shine to your hair. Our Botanical Therapy Treatments provide three different options that will reconstruct, add intense moisture or detoxify your scalp.",
+    "table": "<table id='hairspa-table'><tr><td>Damage Remedy Treatment</td><td>$65+</td></tr><tr><td>Deep Conditioning Treatment</td><td>$65+</td></tr><tr><td>Scalp Benefits Treatment</td><td>$65+</tr></table>",
+    "note": "All treatments can be added to a service for $25."
+  },
+  {
+    "id": "hairextension",
+    "collapseid": "collapse-collapsed6",
+    "name": "Hair Extension",
+    "desc": "Whether you are looking for a boost of youth and vibrancy by adding volume or you desire an entirely new look by adding several inches of length, our extensions are the perfect solution! Versa Salon and Spa only offers the industry best in hair extension. Our extensions are 100% human hair and are fixed into the hair seamlessly by eliminating the need for heat or any other extra tools. It is the healthiest way to go when transforming your look!<br>Our stylists are trained extensively on each type of hair extension and will provide a thorough consultation to determine which option is best suited for your desired look and lifestyle.<br>A consultation is required before booking of service.",
+    "table": "<table id='hairextension-table'><tr><td>Seamless</td><td>$200*</td></tr></table>",
+    "note": "*Service does not include cost of extensions."
+  },
+  {
+    "id": "bridal",
+    "collapseid": "collapse-collapsed7",
+    "name": "Bridal",
+    "desc": "Your wedding day is one of the most memorable days of your life. From the perfect hairstyle to picture–perfect makeup, we will partner with you to ensure every detail is planned to perfection.<br>During an initial consultation prior to your wedding, your stylists will discuss and demonstrate different options to create the perfect look that compliments your features, gown and veil. On your wedding day, your stylists will recreate your look and have you leaving looking and feeling your picture–perfect best.<br>On all Party or Bridal styles, please remember to come with clean, dry hair and a button-down shirt. On Bridal trial runs, please bring any hair accessories that will be worn on the wedding day.",
+    "table": "<table id='bridal-table'><tr><td>Bridal Hair Style</td><td>$75+</td></tr><tr><td>Bridal Makeup</td><td>$70+</td></tr></table>",
+    "note": "*Service does not include cost of extensions."
+  },
+  {
+    "id": "makeup",
+    "collapseid": "collapse-collapsed8",
+    "name": "Makeup",
+    "desc": "Let the makeup artists at Versa Salon and Spa help you find the perfect look to encompass your unique personality as well as your individual flair. From everyday applications to bridal, or any special occasions, our makeup artists put their experience to work, helping to highlight your most radiant you.",
+    "table": "<table id='makeup-table'><tr><td>Makeup Application</td><td>$60+</td></tr><tr><td>Bridal Makeup (includes lashes)</td><td>$70+</td></tr><tr><td>Brow or Lash Tint</td><td>$15+</td></tr><tr><td>Lash Strip</td><td>$15+</td></tr></table>",
+    "note": "Finishing touch is complimentary with any service.<br><br>All prices are subject to change."
+  }
+]

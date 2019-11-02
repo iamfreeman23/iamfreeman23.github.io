@@ -1,0 +1,1403 @@
+body {
+  overflow-x: hidden;
+  font-family: "FiraSansExtraCondensed-Regular";
+  font-style: normal;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+/* Start Homepage styling */
+/* Start Navbar styling */
+.navbar-brand {
+  transition: 0.3s ease-in-out;
+  font-family: "Billabong";
+  letter-spacing: 0.3em;
+  font-size: 24px;
+  color: #d2054d !important;
+  border: 2px solid #d2054d;
+  border-radius: 25%;
+  padding: 5px;
+}
+
+.navbar-light .nav-link {
+  font-family: "FiraSansExtraCondensed-SemiBold";
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+@media (max-width: 425px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(210, 5, 77, 1);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(210, 5, 77, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* End Navbar styling */
+
+/* Start Carousel styling */
+.carousel-item {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 425px) {
+  .carousel-item.bg1 {
+    background-position: left;
+  }
+  .carousel-item.bg2 {
+    background-position: left;
+  }
+  .carousel-item.bg3 {
+    background-position: right;
+  }
+}
+.carousel-caption h3 {
+  font-family: "Exo2-Regular";
+  font-weight: normal;
+  font-size: 30px;
+}
+@media (max-width: 425px) {
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 100%;
+}
+.carousel-caption {
+  top: 45%;
+}
+@media (max-width: 425px) {
+  .carousel-caption {
+    top: 35%;
+  }
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+/* End Carousel styling */
+
+/* Start 1st section styling */
+#section1 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 45px;
+  word-spacing: 0px;
+}
+@media (max-width: 425px) {
+  #section1 h2 {
+    font-size: 24px;
+  }
+}
+#section1 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section1 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End 1st section styling */
+
+/* Start 2nd section styling */
+.section2-caption h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  .section2-caption h2 {
+    font-size: 18px !important;
+  }
+}
+#section2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End 2nd section styling */
+
+/* Start 3rd section styling */
+.section3-caption h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  .section3-caption h2 {
+    font-size: 18px !important;
+  }
+}
+#section3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#section3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+@media (max-width: 425px) {
+  .section2-caption h2,
+  .section3-caption h2 {
+    font-size: 24px;
+  }
+}
+/* End 3rd section styling */
+
+/* Start Location description styling */
+/* Start Location1 styling */
+.loc-caption1 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc1 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc1 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location1 styling */
+
+/* Start Location2 styling */
+.loc-caption2 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location2 styling */
+
+/* Start Location3 styling */
+.loc-caption3 h2 {
+  font-family: "KoHo-Bold";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#location-desc3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+#location-desc3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Location3 styling */
+/* End Location description styling */
+
+/* Start Bottom bar styling */
+.bottom-bar {
+  border-bottom: 1px solid #d2054d;
+}
+/* End Bottom bar styling */
+
+/* Start Location section styling */
+#location h4 {
+  font-family: "Fahkwang-Regular";
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 30px;
+  word-spacing: 0px;
+}
+#location p {
+  font-family: "FiraSansExtraCondensed-Regular" !important;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 27px;
+  word-spacing: 0px;
+}
+#location i {
+  font-size: 16px;
+}
+/* End Location section styling */
+
+/* Start Social media section styling */
+.soc-media-wrapper {
+  text-align: center;
+}
+
+.socmed-icon {
+  color: white;
+}
+.icon-background {
+  color: #d4d0cd;
+}
+.socmed-icon:hover {
+  color: #d2054d;
+  transition: all 0.5s ease-in-out;
+}
+/* End Social media section styling */
+/* End Hompage styling */
+
+/* Start Aboutus page styling */
+#about1 {
+  margin-top: 100px;
+}
+#about1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#about1 span {
+  font-family: "Kanit-Regular";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 11px;
+  color: #d2054d;
+}
+#about2 {
+  margin-top: 50px;
+}
+#about3 {
+  margin-top: 20px;
+}
+#about3 .heading1pink {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#about3 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#about3 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+/* End Aboutus page styling */
+
+/* Start Salon page styling */
+#salon-heading {
+  margin-top: 100px;
+}
+#salon-heading h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+.description h1 {
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 0px;
+}
+#lakeview-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #lakeview-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#lakeview-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.lakeview-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+#westtown-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #westtown-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#westtown-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.westtown-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+#andersonville-salon h1 {
+  font-family: "Fahkwang-Regular";
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 20px;
+}
+@media (max-width: 425px) {
+  #andersonville-salon h1 {
+    font-size: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+#andersonville-salon p {
+  font-family: "KoHo-Regular";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+}
+.andersonville-salon-phone {
+  font-family: "KoHo-Bold";
+  font-size: 13px;
+  letter-spacing: 2.6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.6s, filter 0.6s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+.img-hover-zoom:hover img {
+  filter: brightness(100%);
+  transform: scale(1.25);
+}
+/* End Salon page styling */
+
+/* Start Lakeview page styling */
+#lakeview1 {
+  margin-top: 100px;
+}
+#lakeview1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+
+@media (max-width: 576px) {
+  #lakeview1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#lakeview1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#lakeview2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#lakeview2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#lakeview3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#lakeview2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Lakeview page styling */
+
+/* Start Westtown page styling */
+#westtown1 {
+  margin-top: 100px;
+}
+#westtown1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+@media (max-width: 576px) {
+  #westtown1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#westtown1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#westtown2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#westtown2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#westtown3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#westtown2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Westtown page styling */
+
+/* Start Andersonville page styling */
+#andersonville1 {
+  margin-top: 100px;
+}
+#andersonville1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #andersonville1 h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+}
+#andersonville1 #phone {
+  font-family: "Kanit-Regular";
+  font-size: 21px;
+  letter-spacing: 1.575px;
+  line-height: 20px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#andersonville2 h2 {
+  font-family: "KoHo-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#andersonville2 p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#andersonville3 h2 {
+  font-family: "Kanit-Regular";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  font-weight: bold;
+  color: #d2054d;
+}
+#andersonville2 span {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  text-align: left;
+  vertical-align: top;
+  word-spacing: 0px;
+}
+td {
+  padding: 14px 22px 14px 0px;
+}
+/* End Andersonville page styling */
+
+/* Start Services page styling */
+#services {
+  margin-top: 100px;
+}
+
+#services h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+.card-header .fa {
+  transition: 0.3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(180deg);
+}
+
+a {
+  text-decoration: none !important;
+}
+/* Haircuts Section style */
+#haircuts {
+  margin-top: 10px;
+}
+#haircuts p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#haircuts a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #haircuts a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #haircuts a {
+    font-size: 20px;
+  }
+}
+#haircut-table td {
+  padding: 5px 50px 5px 0px;
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#haircuts span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Colors section style */
+#colors {
+  margin-top: 10px;
+}
+#colors p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#colors a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #colors a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #colors a {
+    font-size: 20px;
+  }
+}
+#color-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#colors span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Styling section style */
+#styling {
+  margin-top: 10px;
+}
+#styling p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#styling a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #styling a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #styling a {
+    font-size: 20px;
+  }
+}
+#styling-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Keratin section style */
+#keratin {
+  margin-top: 10px;
+}
+#keratin p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#keratin a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #keratin a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #keratin a {
+    font-size: 20px;
+  }
+}
+#keratin-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#keratin span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Hair Spa section */
+#hairspa {
+  margin-top: 10px;
+}
+#hairspa p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairspa a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #hairspa a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #hairspa a {
+    font-size: 20px;
+  }
+}
+#hairspa-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairspa span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Hair Extension style */
+#hairextension {
+  margin-top: 10px;
+}
+#hairextension p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairextension a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #hairextension a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #hairextension a {
+    font-size: 20px;
+  }
+}
+#hairextension-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#hairextension span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Bridal section */
+#bridal {
+  margin-top: 10px;
+}
+#bridal p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#bridal a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #bridal a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #bridal a {
+    font-size: 20px;
+  }
+}
+#bridal-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#bridal span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* Makeup section */
+#makeup {
+  margin-top: 10px;
+}
+#makeup p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#makeup a {
+  font-size: 28px;
+  line-height: 45px;
+}
+@media (max-width: 375px) {
+  #makeup a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  #makeup a {
+    font-size: 20px;
+  }
+}
+#makeup-table td {
+  font-family: "Mali-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#makeup span {
+  font-family: "Mali-LightItalic";
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 23px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Services page styling */
+
+/* Start Stylist page styling */
+#stylist {
+  margin-top: 100px;
+}
+#stylist h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#stylist p {
+  font-family: "KoHo-Regular";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+}
+#profile img {
+  width: 75%;
+}
+
+.social {
+  padding: 10px;
+}
+
+.social-item {
+  text-align: center;
+  width: 32px;
+}
+
+.social-center {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-item a {
+  font-size: 24px;
+}
+.card-body h5 {
+  font-family: "Fahkwang-Regular";
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+.card-body h6 {
+  font-family: "KoHo-Bold";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+.card-text {
+  font-family: "Mali-Light" !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+.img-hover img:hover {
+  transition: all 0.3s linear;
+  opacity: 0.5;
+}
+/* End Stylist page styling */
+
+/* Start Gallery page styling */
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.row .column img:hover {
+  transition: all 0.3s linear;
+  opacity: 0.5;
+}
+#gallery1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#gallery1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#gallery1 span {
+  font-family: "Kanit-Regular";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 11px;
+  color: #d2054d;
+}
+/* End Gallery page styling */
+
+/* Start Careers page styling */
+#careers1 {
+  margin-top: 100px;
+}
+
+#careers1 h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#careers1 span {
+  font-family: "Kanit-Regular";
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 11px;
+  color: #d2054d;
+}
+#careers2 {
+  margin-top: 50px;
+}
+#careers2 h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#careers2 {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#careers2 span:hover {
+  color: #d2054d;
+}
+/* End Careers page styling */
+
+/* Start Policies page styling */
+#policies {
+  margin-top: 100px;
+}
+#policies h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#policies2 {
+  margin-top: 50px;
+}
+#policies2 h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+#policies2 {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End Policies page styling */
+
+/* Start FAQ page styling */
+#faq {
+  margin-top: 100px;
+}
+#faq h1 {
+  font-family: "Kanit-Regular";
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 40px;
+  word-spacing: 0px;
+  color: #d2054d;
+}
+#faq-a {
+  margin-top: 50px;
+}
+#faq-a h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-a h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-a p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-b h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-b h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-b p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-c h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-c h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-c p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-d h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-d h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-d p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+#faq-e h2 {
+  font-family: "KoHo-Bold" !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  color: #d2054d;
+}
+@media (max-width: 425px) {
+  #faq-e h5 {
+    font-size: 16px !important;
+  }
+}
+#faq-e p {
+  font-family: "Mali-Light";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 30px;
+  word-spacing: 0px;
+  color: #424949;
+}
+/* End FAQ page styling */
